@@ -77,7 +77,17 @@
         margin-bottom: 15px;
         font-size: 22px;
       }
-
+      @keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 8px 2px rgba(0, 176, 80, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 18px 8px rgba(0, 176, 80, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 8px 2px rgba(0, 176, 80, 0.5);
+  }
+}
       .call-button {
         background-color: #00b050;
         color: white;
@@ -86,7 +96,12 @@
         border-radius: 12px;
         margin-bottom: 10px;
         text-align: center;
+        animation: pulseGlow 2s infinite;
       }
+      .call-button:hover {
+  box-shadow: 0 0 18px 6px rgba(0, 176, 80, 0.8);
+}
+
       .call-button p {
         margin: 0;
         font-size: 18px;
