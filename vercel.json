@@ -3,6 +3,7 @@
       {
         "source": "/englfsquare",
         "destination": "/latest.html"
+      },
     
       {
         "source": "/",
