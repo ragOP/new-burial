@@ -1,0 +1,14 @@
+{
+    "rewrites": [
+      {
+        "source": "/englfsquare",
+        "destination": "/latest.html"
+    
+      {
+        "source": "/",
+        "destination": "/index.html"
+       
+      }
+    ]
+  }
+  
