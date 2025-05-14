@@ -4,6 +4,10 @@
         "source": "/englfsquare",
         "destination": "/latest.html"
       },
+      {
+        "source": "/englf1",
+        "destination": "/urgent.html"
+      },
     
       {
         "source": "/",
