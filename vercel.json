@@ -3,15 +3,10 @@
     {
       "source": "/(.*)",
       "has": [
-        { "type": "host", "value": "finalexpensehelp.org" }
-      ],
-      "destination": "https://www.finalexpensehelp.org/:1",
-      "statusCode": 301
-    },
-    {
-      "source": "/(.*)",
-      "has": [
-        { "type": "protocol", "value": "http" }
+        {
+          "type": "host",
+          "value": "finalexpensehelp.org"
+        }
       ],
       "destination": "https://www.finalexpensehelp.org/:1",
       "statusCode": 301
