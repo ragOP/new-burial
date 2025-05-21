@@ -1,0 +1,29 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "burialprotectionhelp.org"
+        }
+      ],
+      "destination": "https://www.burialprotectionhelp.org/:1",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/englfsquare",
+      "destination": "/latest.html"
+    },
+    {
+      "source": "/englf1",
+      "destination": "/urgent.html"
+    },
+    {
+      "source": "/",
+      "destination": "/index.html"
+    }
+  ]
+}
