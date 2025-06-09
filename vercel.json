@@ -8,6 +8,11 @@
         "source": "/englf1",
         "destination": "/englf1.html"
       },
+          {
+        "source": "/englf40",
+        "destination": "/englf40.html"
+      },
+        
     
       {
         "source": "/",
