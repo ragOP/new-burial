@@ -12,12 +12,14 @@
         "source": "/englf40",
         "destination": "/englf40.html"
       },
-        
-    
       {
         "source": "/",
         "destination": "/index.html"
        
+      },
+      {
+        "source": "/spfe1",
+        "destination": "/burial/index.html"
       }
     ]
   }
