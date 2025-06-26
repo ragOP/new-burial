@@ -12,6 +12,10 @@
         "source": "/englf40",
         "destination": "/englf40.html"
       },
+         {
+        "source": "/engbpp",
+        "destination": "/engbpp.html"
+      },
       {
         "source": "/",
         "destination": "/index.html"
